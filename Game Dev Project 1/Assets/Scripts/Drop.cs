@@ -22,4 +22,5 @@ public class Drop : MonoBehaviour
     void DropDiamond() {
         Instantiate(diamond);
     }
+
 }
