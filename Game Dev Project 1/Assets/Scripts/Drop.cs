@@ -5,7 +5,9 @@ using UnityEngine;
 public class Drop : MonoBehaviour
 {
 
-    public GameObject diamond;
+    //public GameObject diamond;
+    public GameObject Diamond;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -16,11 +18,12 @@ public class Drop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     void DropDiamond() {
-        Instantiate(diamond);
+        //Instantiate(diamond);
+        Instantiate(Diamond);
     }
 
 }
