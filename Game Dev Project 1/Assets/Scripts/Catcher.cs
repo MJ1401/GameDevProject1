@@ -22,7 +22,7 @@ public class Catcher : MonoBehaviour
         print("Entering Collision with Catcher");
         if (col.gameObject.tag == "Diamond") {
             Destroy(col.gameObject);
-
+            GameManager.Instance.IncScore(1);
         }
     }
 }
